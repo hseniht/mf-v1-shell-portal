@@ -7,9 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --port 3000"
   },
   "dependencies": {
+    "@originjs/vite-plugin-federation": "^1.4.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
